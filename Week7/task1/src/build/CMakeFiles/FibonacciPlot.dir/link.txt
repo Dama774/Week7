@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/FibonacciPlot.dir/main.cpp.o CMakeFiles/FibonacciPlot.dir/fibonacci.cpp.o  -o FibonacciPlot  /usr/lib/x86_64-linux-gnu/libpython3.8.so 

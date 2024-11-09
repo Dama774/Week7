@@ -1,0 +1,33 @@
+plugins {
+    id 'cpp-application' // 
+}
+
+application {
+    // имя приложения
+    executableName = 'FibonacciPlot'
+}
+
+model {
+    components {
+        main(NativeExecutableSpec) {
+            // исходные файлы
+            sources {
+                cpp {
+                    source.srcDir 'src'
+                    source {
+                        src 'main.cpp'
+                        src 'fibonacci.cpp'
+                    }
+                    exportedHeaders {
+                        srcDir 'src'
+                    }
+                }
+            }
+        }
+    }
+}
+
+tasks.withType(Delete) {
+    delete fileTree('build')
+}
+

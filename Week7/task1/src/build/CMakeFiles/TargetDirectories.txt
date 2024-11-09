@@ -1,0 +1,4 @@
+/home/baryshev/cpp-cource/Week7/task1/src/build/CMakeFiles/rebuild_cache.dir
+/home/baryshev/cpp-cource/Week7/task1/src/build/CMakeFiles/edit_cache.dir
+/home/baryshev/cpp-cource/Week7/task1/src/build/CMakeFiles/my_clean.dir
+/home/baryshev/cpp-cource/Week7/task1/src/build/CMakeFiles/FibonacciPlot.dir
